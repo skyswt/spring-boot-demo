@@ -36,8 +36,12 @@ public class ElConfig {
     @Value("${book.name}") //7
     private String bookName;
 
+    private final Environment environment; //7
+
     @Autowired
-    private Environment environment; //7
+    public ElConfig(Environment environment) {
+        this.environment = environment;
+    }
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertyConfigure() {
