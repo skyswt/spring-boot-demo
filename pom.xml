@@ -30,6 +30,11 @@
         <module>data-rest</module>
         <module>data-mongo</module>
         <module>data-redis</module>
+        <module>spring-security</module>
+        <module>spring-batch</module>
+        <module>spring-integration</module>
+        <module>spring-actuator</module>
+        <module>spring-ssh</module>
     </modules>
 
     <dependencies>
