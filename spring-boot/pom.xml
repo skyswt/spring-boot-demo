@@ -57,6 +57,11 @@
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
         </dependency>
+        <dependency>
+            <groupId>edu.zju.cst</groupId>
+            <artifactId>starter-hello</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

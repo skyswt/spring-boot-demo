@@ -1,5 +1,10 @@
 server:
   port: 8088
+#  ssl:
+#    key-store: .keystore
+#    key-store-password: shenwen
+#    key-store-type: JKS
+#    key-alias: tomcat
 spring:
   thymeleaf:
     cache: false # 开发时关闭缓存，不然没法看到实时页面
@@ -7,3 +12,11 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+  profiles:
+    active: dev
+#logging:
+#  file:
+hello:
+  msg: 你好吗
+
+
